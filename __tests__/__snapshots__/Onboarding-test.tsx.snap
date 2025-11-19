@@ -1,0 +1,644 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingScreen matches snapshot 1`] = `
+<View
+  className="flex-1 bg-white py-6"
+>
+  <View
+    className="items-center"
+    style={
+      {
+        "paddingVertical": 48,
+      }
+    }
+  >
+    <Text
+      className="text-black font-semibold"
+      style={
+        {
+          "fontSize": 48,
+        }
+      }
+    >
+      Salon Now
+    </Text>
+  </View>
+  <View
+    className="flex-1 justify-center"
+  >
+    <RCTScrollView
+      data={
+        [
+          {
+            "id": "1",
+            "imageUrl": "https://api.builder.io/api/v1/image/assets/TEMP/df40774b35c31c8b961412657e5fb1dc858591a3?width=852",
+            "subtitle": "Book beauty services anytime, anywhere",
+            "title": "Welcome to SalonNow",
+          },
+          {
+            "id": "2",
+            "imageUrl": "https://api.builder.io/api/v1/image/assets/TEMP/14c707c5358604376840939c488ee8796aec8617?width=590",
+            "subtitle": "Explore the latest styles, services, and trends. Book your favorite stylist anytime, anywhere.",
+            "title": "Discover & Book Easily",
+          },
+          {
+            "id": "3",
+            "imageUrl": "https://api.builder.io/api/v1/image/assets/TEMP/8cc6479872184958b12e234948af1c01bcb0ce99?width=720",
+            "subtitle": "We'll handle the rest while you enjoy your moment. Look great, feel amazing — effortlessly.",
+            "title": "Relax & Enjoy",
+          },
+          {
+            "id": "4",
+            "imageUrl": "https://api.builder.io/api/v1/image/assets/TEMP/279c974a6d7ee44a145581c9088d8ad7c77c19a6?width=564",
+            "subtitle": "Your beauty journey starts here",
+            "title": "Your Style, One App",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      getItemLayout={[Function]}
+      horizontal={true}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      onViewableItemsChanged={[Function]}
+      pagingEnabled={true}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEnabled={true}
+      scrollEventThrottle={0.0001}
+      showsHorizontalScrollIndicator={false}
+      stickyHeaderIndices={[]}
+      viewabilityConfig={
+        {
+          "itemVisiblePercentThreshold": 50,
+        }
+      }
+      viewabilityConfigCallbackPairs={
+        [
+          {
+            "onViewableItemsChanged": [Function],
+            "viewabilityConfig": {
+              "itemVisiblePercentThreshold": 50,
+            },
+          },
+        ]
+      }
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            className="items-center justify-center px-6"
+            style={
+              {
+                "width": 750,
+              }
+            }
+          >
+            <View
+              className="w-full max-w-md"
+            >
+              <Image
+                className="w-full aspect-square"
+                resizeMode="contain"
+                source={
+                  {
+                    "uri": "https://api.builder.io/api/v1/image/assets/TEMP/df40774b35c31c8b961412657e5fb1dc858591a3?width=852",
+                  }
+                }
+              />
+            </View>
+            <View
+              className="items-center px-4 max-w-md"
+              style={
+                {
+                  "gap": 8,
+                }
+              }
+            >
+              <Text
+                className="font-bold text-center text-salon-dark"
+                style={
+                  {
+                    "fontSize": 28,
+                    "lineHeight": 42,
+                  }
+                }
+              >
+                Welcome to SalonNow
+              </Text>
+              <Text
+                className="text-center text-salon-gray-light max-w-[280px]"
+                style={
+                  {
+                    "fontSize": 17,
+                    "lineHeight": 25,
+                  }
+                }
+              >
+                Book beauty services anytime, anywhere
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            className="items-center justify-center px-6"
+            style={
+              {
+                "width": 750,
+              }
+            }
+          >
+            <View
+              className="w-full max-w-md"
+            >
+              <Image
+                className="w-full aspect-square"
+                resizeMode="contain"
+                source={
+                  {
+                    "uri": "https://api.builder.io/api/v1/image/assets/TEMP/14c707c5358604376840939c488ee8796aec8617?width=590",
+                  }
+                }
+              />
+            </View>
+            <View
+              className="items-center px-4 max-w-md"
+              style={
+                {
+                  "gap": 8,
+                }
+              }
+            >
+              <Text
+                className="font-bold text-center text-salon-dark"
+                style={
+                  {
+                    "fontSize": 28,
+                    "lineHeight": 42,
+                  }
+                }
+              >
+                Discover & Book Easily
+              </Text>
+              <Text
+                className="text-center text-salon-gray-light max-w-[280px]"
+                style={
+                  {
+                    "fontSize": 17,
+                    "lineHeight": 25,
+                  }
+                }
+              >
+                Explore the latest styles, services, and trends. Book your favorite stylist anytime, anywhere.
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            className="items-center justify-center px-6"
+            style={
+              {
+                "width": 750,
+              }
+            }
+          >
+            <View
+              className="w-full max-w-md"
+            >
+              <Image
+                className="w-full aspect-square"
+                resizeMode="contain"
+                source={
+                  {
+                    "uri": "https://api.builder.io/api/v1/image/assets/TEMP/8cc6479872184958b12e234948af1c01bcb0ce99?width=720",
+                  }
+                }
+              />
+            </View>
+            <View
+              className="items-center px-4 max-w-md"
+              style={
+                {
+                  "gap": 8,
+                }
+              }
+            >
+              <Text
+                className="font-bold text-center text-salon-dark"
+                style={
+                  {
+                    "fontSize": 28,
+                    "lineHeight": 42,
+                  }
+                }
+              >
+                Relax & Enjoy
+              </Text>
+              <Text
+                className="text-center text-salon-gray-light max-w-[280px]"
+                style={
+                  {
+                    "fontSize": 17,
+                    "lineHeight": 25,
+                  }
+                }
+              >
+                We'll handle the rest while you enjoy your moment. Look great, feel amazing — effortlessly.
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            className="items-center justify-center px-6"
+            style={
+              {
+                "width": 750,
+              }
+            }
+          >
+            <View
+              className="w-full max-w-md"
+            >
+              <Image
+                className="w-full aspect-square"
+                resizeMode="contain"
+                source={
+                  {
+                    "uri": "https://api.builder.io/api/v1/image/assets/TEMP/279c974a6d7ee44a145581c9088d8ad7c77c19a6?width=564",
+                  }
+                }
+              />
+            </View>
+            <View
+              className="items-center px-4 max-w-md"
+              style={
+                {
+                  "gap": 8,
+                }
+              }
+            >
+              <Text
+                className="font-bold text-center text-salon-dark"
+                style={
+                  {
+                    "fontSize": 28,
+                    "lineHeight": 42,
+                  }
+                }
+              >
+                Your Style, One App
+              </Text>
+              <Text
+                className="text-center text-salon-gray-light max-w-[280px]"
+                style={
+                  {
+                    "fontSize": 17,
+                    "lineHeight": 25,
+                  }
+                }
+              >
+                Your beauty journey starts here
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    className="px-6 items-center"
+    style={
+      {
+        "gap": 16,
+      }
+    }
+  >
+    <View
+      className="flex-row gap-1 my-4"
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#FE697D",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          className="w-2 h-2 rounded-full"
+          style={
+            {
+              "backgroundColor": "white",
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#FFCCD3",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          className="w-2 h-2 rounded-full"
+          style={
+            {
+              "backgroundColor": "#FE697D",
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#FFCCD3",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          className="w-2 h-2 rounded-full"
+          style={
+            {
+              "backgroundColor": "#FE697D",
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#FFCCD3",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          className="w-2 h-2 rounded-full"
+          style={
+            {
+              "backgroundColor": "#FE697D",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+          "paddingHorizontal": 48,
+          "paddingVertical": 16,
+        }
+      }
+    >
+      <Text
+        className="text-white font-bold tracking-wider capitalize"
+        style={
+          {
+            "fontSize": 21,
+          }
+        }
+      >
+        Next
+      </Text>
+    </View>
+    <View
+      className="h-10 justify-center"
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          className="text-salon-gray-light"
+          style={
+            {
+              "fontSize": 18,
+            }
+          }
+        >
+          Skip!
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
